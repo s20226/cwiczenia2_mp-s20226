@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "XYZExporter": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\mateusz.gorski\\source\\repos\\cwiczenia2_mp-s20226\\Zadanie 1\\dane.csv\" data.json json"
+    },
+    "newProfile1": {
+      "commandName": "Executable"
+    }
+  }
+}

@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using XYZExporter.Models;
 
-namespace XYZExporter
+namespace XYZExporter.Comparers
 {
     internal class StudentComparer : IEqualityComparer<Student>
     {
