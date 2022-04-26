@@ -12,9 +12,9 @@ namespace XYZExporter.Models
         public string CreatedAt { get; set; }
         [JsonProperty("studenci")]
         public HashSet<Student> Students { get; set; }
-        public List<ActiveStudies> ActiveStudies { get; set;}
+        public List<ActiveStudies> ActiveStudies { get; set; }
 
-        
+
 
         public University(string author, HashSet<Student> students, DateTime createdAt, List<ActiveStudies> activeStudiesList)
         {

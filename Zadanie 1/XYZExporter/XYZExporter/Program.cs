@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 using XYZExporter.Comparers;
 using XYZExporter.Models;
@@ -94,7 +93,7 @@ namespace XYZExporter
             }
 
 
-            University university = new University("PJWSTK", studensHashSet, DateTime.Now, activeStudiesList);
+            University university = new University("Jan Kowalski", studensHashSet, DateTime.Now, activeStudiesList);
 
 
             switch (format)
